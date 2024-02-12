@@ -1,0 +1,40 @@
+/* ChatInterface.css */
+.chat-interface {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.chat-box {
+    padding: 10px;
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+    margin-bottom: 10px;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.input-box {
+    display: flex;
+    align-items: center;
+}
+
+.input-box input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.input-box button {
+    margin-left: 10px;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.input-box button:hover {
+    background-color: #0056b3;
+}
